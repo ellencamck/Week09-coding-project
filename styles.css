@@ -1,0 +1,17 @@
+.bg-beach {
+    background-image: url(https://pix4free.org/assets/library/2020-12-13/originals/beach004.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
+.bg-city {
+    background-image: url(https://images.pexels.com/photos/14970379/pexels-photo-14970379/free-photo-of-george-washington-statue-in-boston-massachusetts-usa.jpeg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
+.main {
+    min-height: 50vh;
+}

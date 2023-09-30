@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VacayPack</title>
+    <!-- include bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body class="container">
+     <!-- bootstrap navbar -->
+    <nav class="navbar navbar-expand-sm bg-success" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">VacayPack</a>
+          <!-- bootstrap navbar toggler button (for small screens)-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- bootstrap navbar collapse with navigation links -->
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="destinations.html">Destinations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+<!-- bootstrap form component -->
+    <form>
+        <div class="mb-3 mt-5">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name">
+        </div>
+        <div class="mb-3">
+          <label for="email-address" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message"></textarea>
+        </div>
+ <!-- submit button -->
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+<!-- bootstrap JavaScript -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

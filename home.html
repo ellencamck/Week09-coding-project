@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VacayPack</title>
+    <!-- include bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container">
+  <!-- bootstrap navbar -->
+    <nav class="navbar navbar-expand-sm bg-success" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">VacayPack</a>
+          <!-- bootstrap navbar toggler button (for small screens)-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- bootstrap navbar collapse with navigation links -->
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="destinations.html">Destinations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!-- bootstrap grid for main content -->
+      <div class="container mb-5 main">
+        <div class="row">
+          <!-- First Column with Background -->
+            <div class="col-6 bg-beach">
+                <h1 class="display-4 mb-3 mt-3 text-dark fw-semibold fs-1">Ready for some vacation time?</h1>
+                <a href="destinations.html">
+                  <!-- bootstrap button component -->
+                  <button class="btn btn-success btn-lg">See Destinations</button>
+                </a> 
+            </div>
+            <!-- Second Column with Background -->
+            <div class="col-6 bg-city">
+            </div>
+        </div>
+      </div>
+
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col fw-normal fs-5">
+            Welcome to Your Ultimate Vacation Experience!
+            <div class="col">
+              Discover the world with our curated vacation packages that turn dreams into reality. 
+              At VacayPack, we're dedicated to crafting unforgettable travel adventures tailored just for you.
+            </div>
+          </div>
+        </div>
+    </div>
+<!--bootstrap quote-->
+      <div class="card mb-5 mt-0">
+        <div class="card-header bg-success">
+          Quote
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>“The journey of a thousand miles begins with a single step.”</p>
+            <footer class="blockquote-footer">Lao Tzu</footer>
+          </blockquote>
+        </div>
+      </div>
+
+    <footer class="bg-success text-light p-2">
+        <div class="container">
+          <div class="row">
+              <div class="col-12 col-sm-4 col-md-3">
+                <ul>
+                  <a class="text-light" href="destinations.html">
+                    <li>Destinations</li>
+                  </a>
+                  <a class="text-light" href="contact.html">
+                    <li>Contact Us</li>
+                  </a>
+                </ul>
+              </div>
+          </div>
+        </div>       
+    </footer>
+    <!-- bootstrap JavaScript -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

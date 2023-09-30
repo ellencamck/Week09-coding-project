@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VacayPack</title>
+    <!-- include bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body class="container">
+<!-- bootstrap navbar -->
+    <nav class="navbar navbar-expand-sm bg-success" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">VacayPack</a>
+           <!-- bootstrap navbar toggler button (for small screens) -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- bootstrap navbar collapse with navigation links -->
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="destinations.html">Destinations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+ <!-- bootstrap table component for displaying destinations -->
+    <table class="table mt-5 mb-5">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Destination*</th>
+            <th scope="col">When</th>
+            <th scope="col">How Much</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!-- Repeat similar rows for all the destinations -->
+            <th scope="row">1</th>
+            <td>Boston</td>
+            <td>Oct 2023</td>
+            <td>Starts at $799/person</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Washington DC</td>
+            <td>Oct 2023</td>
+            <td>Starts at $999/person</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Philadelphia</td>
+            <td>Nov 2023</td>
+            <td>Starts at $899/person</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>New York</td>
+            <td>Dec 2023</td>
+            <td>Starts at $1199/person</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Aspen</td>
+            <td>Jan 2023</td>
+            <td>Starts at $3900/person</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Cancun</td>
+            <td>May 2024</td>
+            <td>Starts at $1099/person</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>Caribbean</td>
+            <td>Jun 2024</td>
+            <td>Starts at $2499/person</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>Maldives</td>
+            <td>Jul 2024</td>
+            <td>Starts at $4900/person</td>
+          </tr>
+        </tbody>
+    </table>
+
+    <div class="container mb-5">
+        <div class="row">
+          <div class="col fw-normal fs-5">
+            *At VacayPack, we're constantly adding new and exciting places to our portfolio, each offering a unique blend of culture, adventure, and relaxation. 
+            So, whether you've set your sights on a sun-soaked beach, a charming historic city, or an adrenaline-pumping wilderness, keep checking this page. 
+            Your dream destination might just be the next one to grace our collection. The world is full of surprises, and so are we. 
+            Come back often to uncover your next unforgettable adventure.
+          </div>
+        </div>
+    </div>
+
+
+
+<!-- bootstrap footer component
+<footer class="bg-success text-light p-2">
+    <div class="container">
+      <div class="row">
+          <div class="col-12 col-sm-4 col-md-3">
+            <ul>
+                <li>Link 1</li>
+                <li>Link 2</li>
+            </ul>
+          </div>
+      </div>
+    </div>       
+</footer> -->
+<!-- bootstrap JavaScript -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
